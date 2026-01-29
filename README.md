@@ -58,23 +58,28 @@ src/
 
 ## Deployment
 
-Deploy to Vercel:
+This site is deployed to **Cloudflare Pages** via GitHub Actions.
+
+### CI/CD Pipeline
+
+- **On PR**: Runs lint, type-check, build, and test
+- **On merge to main**: Automatically deploys to Cloudflare Pages
+
+### Manual Deployment
 
 ```bash
-# Install Vercel CLI
-npm i -g vercel
+# Build locally
+npm run build
 
-# Deploy
-vercel
+# Deploy via wrangler (requires CLOUDFLARE_API_TOKEN)
+npx wrangler pages deploy out --project-name=devinpatterson-dev
 ```
-
-Or connect your GitHub repository to Vercel for automatic deployments.
 
 ## Domain Setup
 
-1. Deploy to Vercel
-2. Add custom domain `devinpatterson.dev` in Vercel dashboard
-3. Update DNS records as instructed by Vercel
+1. Domain registered at Squarespace (transfer to Cloudflare after 60 days)
+2. Nameservers pointed to Cloudflare
+3. Cloudflare Pages serves the site at `devinpatterson.dev`
 
 ## Related Projects
 
