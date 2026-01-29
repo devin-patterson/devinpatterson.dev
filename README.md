@@ -58,12 +58,12 @@ src/
 
 ## Deployment
 
-This site is deployed to **Cloudflare Pages** via GitHub Actions.
+This site is deployed to **GitHub Pages** via GitHub Actions.
 
 ### CI/CD Pipeline
 
 - **On PR**: Runs lint, type-check, build, and test
-- **On merge to main**: Automatically deploys to Cloudflare Pages
+- **On merge to main**: Automatically deploys to GitHub Pages
 
 ### Manual Deployment
 
@@ -71,15 +71,14 @@ This site is deployed to **Cloudflare Pages** via GitHub Actions.
 # Build locally
 npm run build
 
-# Deploy via wrangler (requires CLOUDFLARE_API_TOKEN)
-npx wrangler pages deploy out --project-name=devinpatterson-dev
+# Output is in the 'out' directory
 ```
 
 ## Domain Setup
 
-1. Domain registered at Squarespace (transfer to Cloudflare after 60 days)
-2. Nameservers pointed to Cloudflare
-3. Cloudflare Pages serves the site at `devinpatterson.dev`
+1. Domain registered at Squarespace
+2. Configure DNS to point to GitHub Pages
+3. Add custom domain in GitHub repo settings
 
 ## Related Projects
 
