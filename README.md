@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# devinpatterson.dev
+
+Personal portfolio website for Devin Patterson - Platform Engineering Leader & AI Infrastructure Expert.
+
+## Features
+
+- **Home Page**: Hero section, expertise areas, career highlights, AI experience
+- **Resume Page**: Full professional resume with work experience, education, certifications
+- **Projects Page**: Portfolio of AI infrastructure and platform engineering projects
+- **Certifications Page**: Current and planned certifications with roadmap
+- **Contact Page**: Contact information and availability
+
+## Tech Stack
+
+- **Framework**: Next.js 16 with App Router
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom components inspired by shadcn/ui
+- **Icons**: Lucide React
+- **Fonts**: Geist Sans & Geist Mono
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Home page
+│   ├── resume/            # Resume page
+│   ├── projects/          # Projects page
+│   ├── certifications/    # Certifications page
+│   └── contact/           # Contact page
+├── components/            # React components
+│   ├── ui/               # UI primitives (Button, Card, Badge)
+│   ├── Navigation.tsx    # Site navigation
+│   └── Footer.tsx        # Site footer
+├── data/                  # Data files
+│   └── resume.ts         # Resume data
+└── lib/                   # Utilities
+    └── utils.ts          # Helper functions
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deploy to Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Deploy
+vercel
+```
 
-## Deploy on Vercel
+Or connect your GitHub repository to Vercel for automatic deployments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Domain Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Deploy to Vercel
+2. Add custom domain `devinpatterson.dev` in Vercel dashboard
+3. Update DNS records as instructed by Vercel
+
+## Related Projects
+
+- **Resume Generator** (`../resume-generator/`): Python CLI tool for managing resume data in YAML format
+- **LinkedIn Post Bot** (`../linkedin-post-bot/`): AI-powered LinkedIn post generator
+
+## License
+
+Private - All rights reserved.
