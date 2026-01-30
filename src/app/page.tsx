@@ -73,7 +73,7 @@ export default function Home() {
                 <Cloud className="h-10 w-10 text-indigo-500 mb-2" />
                 <CardTitle>Cloud Architecture</CardTitle>
                 <CardDescription>
-                  AWS, GCP, Azure - multi-cloud strategies and enterprise migrations
+                  AWS cloud architecture, enterprise migrations, and infrastructure design
                 </CardDescription>
               </CardHeader>
             </Card>
