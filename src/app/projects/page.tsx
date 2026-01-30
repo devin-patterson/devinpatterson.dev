@@ -83,6 +83,14 @@ const portfolioProjects = [
     link: "#"
   },
   {
+    name: "Internal Developer Platform (IDP)",
+    description: "Backstage-based developer portal with custom plugins for service catalog, CI/CD integration, infrastructure provisioning, and developer self-service. Built with TypeScript frontend and Go microservices for platform APIs.",
+    technologies: ["TypeScript", "Go", "Backstage", "React", "Kubernetes", "Terraform", "ArgoCD"],
+    status: "Planned",
+    category: "Platform Engineering",
+    link: "#"
+  },
+  {
     name: "Kafka MCP Server",
     description: "Custom MCP server enabling AI agents to interact with Kafka streaming infrastructure for real-time operational insights and automated troubleshooting.",
     technologies: ["Python", "MCP", "Kafka", "FastAPI"],
