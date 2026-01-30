@@ -4,7 +4,7 @@ export const resumeData = {
     title: "Platform Engineering Leader | AI Infrastructure",
     email: "devin@devinpatterson.dev",
     linkedin: "https://www.linkedin.com/in/devin-patterson-technologist",
-    github: "https://github.com/devinpatterson",
+    github: "https://github.com/devin-patterson",
     location: "Miami, FL"
   },
   
@@ -17,7 +17,7 @@ pioneering AI-assisted development workflows that have achieved 20% reduction in
     "AI Infrastructure & MLOps",
     "Kubernetes & Container Orchestration",
     "Platform Engineering",
-    "Cloud Architecture (AWS/GCP/Azure)",
+    "Cloud Architecture (AWS)",
     "Distributed Systems",
     "Infrastructure as Code",
     "DevOps & SRE",
