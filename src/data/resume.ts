@@ -114,6 +114,20 @@ pioneering AI-assisted development workflows that have achieved 20% reduction in
 
   projects: [
     {
+      name: "AI Research Project Generator",
+      description: "AI-powered research tool with local LLM integration (Ollama, OpenAI), academic search APIs (OpenAlex, Semantic Scholar), and FastAPI REST API for generating comprehensive research projects",
+      technologies: ["Python", "FastAPI", "Ollama", "LangChain", "OpenAlex API"],
+      link: "https://github.com/devin-patterson/ai-research-project-generator",
+      status: "Live"
+    },
+    {
+      name: "devinpatterson.dev",
+      description: "Personal portfolio website built with Next.js 16, deployed to GitHub Pages via CI/CD pipeline with automated testing, linting, and deployment",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Actions"],
+      link: "https://github.com/devin-patterson/devinpatterson.dev",
+      status: "Live"
+    },
+    {
       name: "Kafka MCP Server",
       description: "Custom MCP server enabling AI agents to interact with Kafka streaming infrastructure for real-time operational insights",
       technologies: ["Python", "MCP", "Kafka"],
@@ -127,15 +141,43 @@ pioneering AI-assisted development workflows that have achieved 20% reduction in
     },
     {
       name: "LLM Serving Benchmark Suite",
-      description: "Comprehensive benchmarking framework comparing vLLM, TGI, Ray Serve, and Triton for production LLM deployment",
-      technologies: ["Python", "vLLM", "TGI", "Ray", "Triton"],
+      description: "Comprehensive benchmarking framework comparing vLLM, TGI, Ray Serve, and Triton for production LLM deployment with latency, throughput, and cost analysis",
+      technologies: ["Python", "vLLM", "TGI", "Ray Serve", "Triton"],
       link: "#",
       status: "In Progress"
     },
     {
       name: "Production RAG System",
-      description: "Enterprise-grade RAG system with vector databases, evaluation pipelines, and production deployment patterns",
-      technologies: ["LangChain", "Pinecone", "Python", "FastAPI"],
+      description: "Enterprise-grade RAG system with vector databases, evaluation pipelines, chunking strategies, and production deployment patterns",
+      technologies: ["LangChain", "Pinecone", "ChromaDB", "Python", "FastAPI"],
+      link: "#",
+      status: "Planned"
+    },
+    {
+      name: "MLflow Experiment Tracking Platform",
+      description: "Self-hosted MLflow deployment on Kubernetes with S3 artifact storage, PostgreSQL backend, and integration with model registry for ML lifecycle management",
+      technologies: ["MLflow", "Kubernetes", "Helm", "PostgreSQL", "S3"],
+      link: "#",
+      status: "Planned"
+    },
+    {
+      name: "Kubeflow ML Pipeline",
+      description: "End-to-end ML pipeline on Kubeflow with automated training, hyperparameter tuning (Katib), model serving (KServe), and drift detection",
+      technologies: ["Kubeflow", "KServe", "Katib", "Kubernetes", "Python"],
+      link: "#",
+      status: "Planned"
+    },
+    {
+      name: "AIOps Observability Platform",
+      description: "Intelligent observability stack with n8n workflow automation, Prometheus/Grafana metrics, Loki logs, and LLM-powered anomaly detection and incident response",
+      technologies: ["n8n", "Prometheus", "Grafana", "Loki", "OpenTelemetry", "Python"],
+      link: "#",
+      status: "Planned"
+    },
+    {
+      name: "Feature Store with Feast",
+      description: "Production feature store using Feast for ML feature management, online/offline serving, and feature versioning with Redis and BigQuery backends",
+      technologies: ["Feast", "Redis", "BigQuery", "Python", "Kubernetes"],
       link: "#",
       status: "Planned"
     }
