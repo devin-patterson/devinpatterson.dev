@@ -9,8 +9,8 @@ export const resumeData = {
   },
   
   summary: `Engineering leader with 15+ years of experience driving AI-first transformation in platform engineering. 
-Proven track record building scalable infrastructure at AWS, Cisco, and Abbott Labs. Expert in Kubernetes, 
-cloud architecture, and emerging AI/ML infrastructure. Currently leading platform engineering teams while 
+Proven track record building scalable infrastructure at AWS, Cisco, and Abbott Labs. Deep expertise in 
+cloud architecture, distributed systems, and emerging AI/ML infrastructure. Currently leading platform engineering teams while 
 pioneering AI-assisted development workflows that have achieved 20% reduction in development time.`,
 
   expertise: [
