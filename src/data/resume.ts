@@ -35,7 +35,7 @@ pioneering AI-assisted development workflows that have achieved 20% reduction in
       endDate: "Present",
       highlights: [
         "Lead platform engineering team supporting FedRAMP High infrastructure for Webex Government, ensuring compliance and operational excellence",
-        "Architected and delivered Kubernetes-based platform serving 500+ microservices with 99.9% uptime",
+        "Drove multi-team coordination for Kafka infrastructure modernization serving 200+ microservices with standardized migration runbooks and rollback procedures",
         "Pioneered AI-first engineering practices, integrating LLM-powered workflows that reduced development and troubleshooting time by 20%",
         "Built custom MCP servers enabling AI agents to interact with Kafka, Jira, and Confluence for automated operations",
         "Led AI capability building program across 3 teams, training 20+ engineers on LLM integration and AI-assisted development"
