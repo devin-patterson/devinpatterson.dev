@@ -69,7 +69,7 @@ export default function ContactPage() {
             </CardHeader>
             <CardContent>
               <Button asChild variant="outline" className="w-full">
-                <Link href="https://github.com/devinpatterson" target="_blank">
+                <Link href="https://github.com/devin-patterson" target="_blank">
                   View GitHub
                 </Link>
               </Button>
